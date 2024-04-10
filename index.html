@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hamburgueria</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img class="header-image" src="hamburguer.jpg" alt="hamburguer">
+            <h1>Hamburgueria do Chef</h1>
+        </div>
+        <div class="carrinho">
+            <ion-icon class="car" name="cart-outline"></ion-icon>
+            <div id="cart-items"></div>
+            <div id="total-price"> <h3>Total: R$ 0.00</h3></div>
+        </div>
+    </header>
+    
+  
+    <div class="container">
+        <div class="hamburguer">
+            <img src="hamburguer1.webp" alt="hamburguer1">
+            <div class="info">
+                <h3>Vegetariano</h3>
+                <h2>R$ 17,90</h2>
+                <button class="add-to-cart" data-name="Vegetariano" data-price="17.90">Adicionar</button>
+            </div>
+        </div>
+        <div class="hamburguer">
+            <img src="hamburguer2.webp" alt="hamburguer2">
+            <div class="info">
+                <h3>Americano</h3>
+                <h2>R$ 15,90</h2>
+                <button class="add-to-cart" data-name="Americano" data-price="15.90">Adicionar</button>
+            </div>
+        </div>
+        <div class="hamburguer">
+            <img src="hamburguer3.webp" alt="hamburguer3">
+            <div class="info">
+                <h3>X-EGG BACON</h3>
+                <h2>R$ 25,90</h2>
+                <button class="add-to-cart" data-name="X-EGG BACON" data-price="25.90">Adicionar</button>
+            </div>
+        </div>
+        <div class="hamburguer">
+            <img src="hamburguer4.webp" alt="hamburguer4">
+            <div class="info">
+                <h3>X-TUDO</h3>
+                <h2>R$ 28,90</h2>
+                <button class="add-to-cart" data-name="X-TUDO" data-price="28.90">Adicionar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Desenvolvido por Vitor Hugo Dias Pereira <ion-icon name="heart-outline"></ion-icon></h3>
+    </footer>
+
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
